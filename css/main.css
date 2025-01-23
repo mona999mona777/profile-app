@@ -1,0 +1,883 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+    /* text-decoration: none; */
+}
+
+a {
+    text-decoration: none;
+    /* color: #fff; */
+}
+
+/* navbar */
+
+.nav-logo {
+    /* color: #343434; */
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    Color: rgb(255, 255, 255);
+    font-size: 18px;
+}
+.nav-link{
+    color: white;
+    transition: all 1s;
+}
+.my-navbar {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1000000;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.navbar .nav-item .nav-link.active {
+    color: #1b2376;
+    /* padding: 5px; */
+background-color: #fff;
+border-radius: 10px;
+overflow: hidden;
+}
+
+
+
+/* header  */
+.header {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/bg.jpg);
+    background-size: cover;
+    /* background-repeat: no-repeat; */
+    background-position: 0px 0px;
+    background-attachment: fixed;
+
+    color: white;
+    text-align: center;
+}
+
+
+.circlee {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+}
+
+.header .trans-text::after {
+    content: '';
+    animation: trans 10s infinite;
+    border-right: 1px solid #fff;
+    padding-right: 5px;
+}
+
+@keyframes trans {
+
+    /* Larry Daniels */
+    0% {
+        content: 'L';
+    }
+
+    1% {
+        content: 'La';
+    }
+
+    2% {
+        content: 'Larr';
+    }
+
+    3% {
+        content: 'Larry';
+    }
+
+    4% {
+        content: 'Larry D';
+    }
+
+    5% {
+        content: 'Larry Da';
+    }
+
+    6% {
+        content: 'Larry Dan';
+    }
+
+    7% {
+        content: 'Larry Dani';
+    }
+
+    8% {
+        content: 'Larry Danie';
+    }
+
+    9% {
+        content: 'Larry Daniel';
+    }
+
+    10% {
+        content: 'Larry Danails';
+    }
+
+    23% {
+        content: 'Larry Danails';
+    }
+
+    /* delet Larry Daniels */
+    24% {
+        content: 'Larry Daniel';
+    }
+
+    25% {
+        content: 'Larry Danie';
+    }
+
+    26% {
+        content: 'Larry Dani';
+    }
+
+    27% {
+        content: 'Larry Dan';
+    }
+
+    28% {
+        content: 'Larry Da';
+    }
+
+    29% {
+        content: 'Larry Da';
+    }
+
+    30% {
+        content: 'Larry D';
+    }
+
+    31% {
+        content: 'Larry';
+    }
+
+    32% {
+        content: 'Larr';
+    }
+
+    33% {
+        content: 'Lar';
+    }
+
+    34% {
+        content: 'La';
+    }
+
+    35% {
+        content: 'L';
+    }
+
+    /* developer */
+    36% {
+        content: 'd';
+    }
+
+    37% {
+        content: 'De';
+    }
+
+    38% {
+        content: 'Dev';
+    }
+
+    39% {
+        content: 'Deve';
+    }
+
+    40% {
+        content: 'Devel';
+    }
+
+    41% {
+        content: 'Develo';
+    }
+
+    42% {
+        content: 'Develop';
+    }
+
+    43% {
+        content: 'Develope';
+    }
+
+    44% {
+        content: 'Developer';
+    }
+
+    45% {
+        content: 'Developer';
+    }
+
+    58% {
+        content: 'Developer';
+    }
+
+    /* delet developer */
+    59% {
+        content: 'Develope';
+    }
+
+    60% {
+        content: 'Develop';
+    }
+
+    61% {
+        content: 'Develo';
+    }
+
+    62% {
+        content: 'Devel';
+    }
+
+    63% {
+        content: 'Deve';
+    }
+
+    64% {
+        content: 'Dev';
+    }
+
+    65% {
+        content: 'De';
+    }
+
+    66% {
+        content: 'D';
+    }
+
+    /* designer */
+    67% {
+        content: '';
+    }
+
+    68% {
+        content: 'De';
+    }
+
+    69% {
+        content: 'Des';
+    }
+
+    70% {
+        content: 'Desi';
+    }
+
+    71% {
+        content: 'Desi';
+    }
+
+    72% {
+        content: 'Desig';
+    }
+
+    73% {
+        content: 'Desig';
+    }
+
+    74% {
+        content: 'Design';
+    }
+
+    75% {
+        content: 'Designe';
+    }
+
+    76% {
+        content: 'Designer';
+    }
+
+    89% {
+        content: 'Designer';
+    }
+
+    /* delet designer */
+    90% {
+        content: 'Designe';
+    }
+
+    91% {
+        content: 'Design';
+    }
+
+    92% {
+        content: 'Desig';
+    }
+
+    93% {
+        content: 'Desi';
+    }
+
+    94% {
+        content: 'Des';
+    }
+
+    95% {
+        content: 'De';
+    }
+
+    96% {
+        content: 'De';
+    }
+
+    97% {
+        content: 'D';
+    }
+
+
+}
+
+/* fonts */
+.header h1 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    Color: rgb(255, 255, 255);
+    font-size: 50px;
+}
+
+.header p {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    Color: rgb(255, 255, 255);
+    font-size: 60px;
+}
+
+/* section-2 */
+
+.all::after {
+    content: '';
+    width: 80%;
+    height: 100%;
+    background-image: url(../images/dots.png);
+    background-repeat: repeat;
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+    transform: translateY(20%);
+}
+
+.mm {
+    overflow: hidden;
+}
+
+/* button */
+.about .black {
+    background-color: black;
+}
+
+.about .black {
+    color: white;
+}
+
+.about .black:hover {
+    background-color: transparent;
+}
+
+.about .black:hover {
+    color: black;
+}
+
+.about .white {
+    color: black;
+}
+
+.about .white:hover {
+    background-color: black;
+}
+
+.about .white:hover {
+    color: white;
+
+}
+
+/* fonts */
+.about h2 {
+    font-family: "Montserrat", sans-serif;
+    font-Weight: 800;
+    Color: rgb(52, 52, 52);
+    font-size: 30px;
+}
+
+.about .deffrent {
+    font-family: "Poppins", sans-serif;
+    font-Weight: 400;
+    Color: rgb(153, 153, 153);
+    font-size: 14px;
+}
+
+.about .prag {
+    font-family: "Poppins", sans-serif;
+    font-Weight: 400;
+    Color: rgb(116, 129, 130);
+    font-size: 15px;
+}
+
+.about .size p {
+    font-family: "Montserrat", sans-serif;
+    font-Weight: 500;
+    Color: rgb(255, 255, 255);
+    font-size: 13px;
+    margin-top: 15px;
+}
+
+.about .buttom {
+    font-family: "Poppins", sans-serif;
+    font-Weight: 400;
+    /* Color: rgb(52, 52, 52); */
+    font-Size: 13px;
+}
+
+/* section-3 */
+.circ {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #fff;
+    transition: all 1s;
+
+}
+
+.total:hover .circ {
+    background-color: black;
+}
+
+.Services .total:hover i {
+    color: white;
+}
+
+.sevice-title h2::after {
+    content: '';
+    width: 212px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    background-image: url(../images/dots.png);
+    z-index: -1;
+}
+
+/* fonts */
+.sevice-title h2 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    Color: rgb(52, 52, 52);
+    font-size: 40px;
+    z-index: 10;
+}
+
+.sevice h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    Color: rgb(52, 52, 52);
+    font-size: 18px;
+}
+
+.sevice p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    Color: #748182;
+    font-Size: 14px;
+}
+
+/* section-4 */
+.porto-title h2::after {
+    content: '';
+    width: 150px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    right: 44%;
+    background-image: url(../images/dots.png);
+    z-index: -1;
+}
+
+.porto .layer {
+    background-color: white;
+    position: absolute;
+    top: 2%;
+    bottom: 2%;
+    right: 2%;
+    left: 2%;
+    opacity: 0;
+    transform: translateY(3%);
+    transition: all 1s;
+}
+
+.porto .image:hover .layer {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.circles {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.circles:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+/* fonts */
+.porto-title h2 {
+    z-index: 10;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    Color: rgb(52, 52, 52);
+    font-size: 40px;
+}
+
+.porto .layer h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    Color: rgb(52, 52, 52);
+    font-size: 12px;
+    letter-spacing: 5px;
+}
+
+.porto .color-me {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    Color: rgb(34, 34, 34);
+    font-size: 16px;
+}
+
+/* section-5 */
+.test-title h2::after {
+    content: '';
+    width: 280px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    background-image: url(../images/dots.png);
+    z-index: -1;
+}
+
+
+.wd {
+    width: 100px;
+}
+
+.carousel-indicators [data-bs-target] {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: #869791;
+
+}
+
+/* fonts */
+.test-title h2 {
+    z-index: 10;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    Color: rgb(52, 52, 52);
+    font-size: 40px;
+}
+
+.test h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    Color: rgb(52, 52, 52);
+    font-size: 16px;
+
+}
+
+.test p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    Color: rgb(116, 129, 130);
+    font-size: 15px;
+
+}
+
+.test span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    Color: rgb(136, 136, 136);
+    font-size: 12px;
+}
+
+/* secton-6 */
+.coler {
+    color: #343434;
+}
+
+.white-layer h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    Color: rgb(52, 52, 52);
+    font-size: 30px;
+}
+
+.white-layer span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    Color: rgb(116, 129, 130);
+    font-Size: 15px:
+}
+
+/* section-7 */
+.team .inside-image {
+    overflow: hidden;
+}
+
+.team .inside-image img {
+    transition: transform 0.5s;
+
+}
+
+.team .hiden:hover img {
+    transform: scale(1.2);
+}
+
+.team-layer {
+    position: absolute;
+    top: 100px;
+    left: 70px;
+    right: 70px;
+    bottom: 200px;
+    background-color: rgba(255, 255, 255, 0.95);
+    ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: all 0.5s;
+}
+
+.content:hover .team-layer {
+    opacity: 1;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 108px;
+    transform: rotatey(180deg);
+}
+
+.icona {
+    transform: rotateY(180deg);
+}
+
+.content:hover .circlle {
+    width: 40px;
+    height: 40px;
+}
+
+.team-layer i {
+    font-size: 10px;
+}
+
+.content:hover .team-layer i {
+    font-size: 20px;
+}
+
+.circlle {
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    background-color: black;
+    border: 1px solid black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circlle:hover {
+    background-color: rgb(255, 255, 255);
+    color: #000000;
+}
+
+.team .phto-content {
+    background-color: #5B5B5B;
+}
+
+.team-title h2::after {
+    content: '';
+    width: 280px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    background-image: url(../images/dots.png);
+    z-index: -1;
+}
+
+/* fonts */
+.team-title h2 {
+    z-index: 10;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    Color: rgb(52, 52, 52);
+    font-size: 40px;
+}
+
+.team h3 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    Color: rgb(255, 255, 255);
+    font-size: 25px;
+}
+
+.team h4 {
+    font-family: "Montserrat", sans-serif;
+    font-Weight: 700;
+    Color: rgb(255, 255, 255);
+    font-size: 20p;
+}
+
+/* section-8 */
+.contact .margo {
+    padding-right: 20px;
+}
+
+.contact .form-button {
+    background-color: #1c1c1c;
+    color: #eee;
+
+}
+
+.contact .textarea-control {
+    height: 160px;
+    max-height: 160px;
+    width: 100%;
+    overflow: auto;
+}
+
+.contact .form-button:hover {
+    background-color: #fff;
+    color: #000000;
+}
+
+.around {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f4f4f4;
+    transition: all 1s;
+
+}
+
+.changing:hover .around {
+    background-color: #1C1C1C;
+}
+
+.changing:hover .around i {
+    color: #fff;
+}
+
+.contact-title h2::after {
+    content: '';
+    width: 200px;
+    height: 25px;
+    position: absolute;
+    top: 50%;
+    right: 40%;
+    background-image: url(../images/dots.png);
+    z-index: -1;
+}
+
+/* fonts */
+.contact-title h2 {
+    z-index: 10;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 900;
+    Color: rgb(52, 52, 52);
+    font-Size: 40px;
+}
+
+.contact h3 {
+
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    Color: rgb(52, 52, 52);
+    font-Size: 16px;
+}
+
+.contact p {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    Color: rgb(116, 129, 130);
+    font-size: 15px;
+}
+
+.contact form {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    Color: rgb(52, 52, 52);
+    font-Size: 14px;
+}
+
+input,
+textarea {
+    border: 0;
+    background-color: #F4F4F4;
+    border-radius: 5px;
+}
+
+input,
+textarea:focus {
+    outline: none;
+}
+
+/* section-10 */
+
+
+
+
+
+/* media quary */
+
+/* @media (min-width: 1400px) {
+    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
+      max-width: 1140px;
+    }
+  } */
+
+@media {
+    .container {
+        max-width: 900px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        max-width: 730px;
+    }
+}
+
+@media (min-width: 992px) {
+    .container {
+        max-width: 1000px;
+    }
+}
+
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1170px;
+    }
+}
