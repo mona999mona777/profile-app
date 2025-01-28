@@ -18,9 +18,7 @@ a {
     background-color: #fff !important;
     box-shadow: none !important;
 }
-.navbar-nav{
-    border: #1b2376 solid 3px;
-}
+
 /* navbar */
 
 .nav-logo {
@@ -35,11 +33,12 @@ a {
     transition: all 1s;
 }
 .my-navbar {
-    background-color: rgba(93, 96, 131, 0.5);
     background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../images/bg.jpg);
     background-size: cover;
     background-position: 0px 0px;
     background-attachment: fixed;
+    width: 100%;
+    height: 50px;
     position: fixed;
     left: 0;
     right: 0;
@@ -853,24 +852,6 @@ textarea:focus {
 
 /* section-10 */
 
-
-
-
-
-/* media quary */
-
-/* @media (min-width: 1400px) {
-    .container-xxl, .container-xl, .container-lg, .container-md, .container-sm, .container {
-      max-width: 1140px;
-    }
-  } */
-
-@media {
-    .container {
-        max-width: 900px;
-    }
-}
-
 @media (min-width: 768px) {
     .container {
         max-width: 730px;
@@ -888,9 +869,15 @@ textarea:focus {
         max-width: 1170px;
     }
 }
+@media (max-width: 768px) {
+    .collapse.navbar-collapse {
+        background-color: rgba(59, 69, 84, 0.9);;
+        border-radius: 20px;
+    }
+}
 .copy-wirte{
     width: 100%;
-    height: 100px;
+    height: 80px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.6),
      rgba(0, 0, 0, 0.6)), url(../images/bg.jpg);
     background-size: cover;
